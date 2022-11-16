@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registrasi</title>
+</head>
+
+<body>
+    <table>
+        <form action="contact.php" method="POST">
+            <fieldset>
+                <legend>Registrasi</legend>
+                <tr>
+                    <td>Nama</td>
+                    <td>:</td>
+                    <td><input type="text" name="nama" placeholder="Nama lengkap..." /></td>
+                </tr>
+                <tr>
+                    <td>Username</td>
+                    <td>:</td>
+                    <td> <input type="text" name="username" placeholder="Username..." /></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td><input type="email" name="email" placeholder="Your email..." /></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>:</td>
+                    <td><input type="password" name="password" placeholder="Passowrd..." /></td>
+                </tr>
+                <tr>
+                    <td>Jenis kelamin</td>
+                    <td>:</td>
+                    <td><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</td>
+                    <td><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</td>
+                </tr>
+                <tr>
+                    <td>Agama:</td>
+                    <td><select name="agama">
+                            <option value="islam">Islam</option>
+                            <option value="kristen">Kristen</option>
+                            <option value="hindu">Hindu</option>
+                            <option value="budha">Budha</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Biografi</td>
+                    <td>:</td>
+                    <td> <textarea name="biografi">Tuliskan Biografi Kamu...</textarea></td>
+                </tr>
+                <tr>
+                    <td>Foto</td>
+                    <td>:</td>
+                    <td> <input type="file" name="foto"> </td>
+                </tr>
+                <tr>
+                    <td>Umur</td>
+                    <td>:</td>
+                    <td><input type="text" name="umur" placeholder="Umur" /></td>
+                </tr>
+                <tr>
+                    <td>Tanngal Lahir</td>
+                    <td>:</td>
+                    <td><input type="date" name="Tanggal lahir"></td>
+                </tr>
+                <tr>
+                    <td>Hobi</td>
+                    <td>:</td>
+                    <td><input type="checkbox">Futsal<input type="checkbox">Basket<input type="checkbox">Badminton</td>
+                </tr>
+                <tr>
+                    <td> <input type="submit" name="daftar" value="Daftar"></td>
+                </tr>
+            </fieldset>
+
+        </form>
+    </table>
+</body>
+
+</html>

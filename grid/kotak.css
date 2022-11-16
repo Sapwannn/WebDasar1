@@ -1,0 +1,41 @@
+.kotak {
+    color: white;
+    line-height: 120px;
+    text-align: center;
+}
+
+.merah {
+    background-color: rgba(28, 40, 209, 0.791);
+    height: 300px;
+    line-height: 300px;
+
+}
+
+.biru {
+    background-color: rgb(210, 28, 146);
+    width: 80%;
+    height: 500px;
+    line-height: 500px;
+    float: left;
+}
+
+.ijo {
+    background-color: rgb(47, 255, 102);
+    width: 20%;
+    height: 500px;
+    float: right;
+    line-height: 500px;
+
+    
+}
+
+.pink {
+    background-color: rgb(227, 128, 147);
+    height: 100px;
+    line-height:  100px;
+    margin-top: 29%;
+}
+
+.ungu {
+    background-color: blueviolet;
+}
